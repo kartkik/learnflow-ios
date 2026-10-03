@@ -10,9 +10,22 @@
 		0B97B409306F917900DA0850 /* learnflow-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learnflow-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0BFC2CE13071277500A7C3C6 /* Exceptions for "learnflow-ios" folder in "learnflow-ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LearnFlowUnitTests.swift,
+			);
+			target = 0B97B408306F917900DA0850 /* learnflow-ios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0B97B40B306F917900DA0850 /* learnflow-ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0BFC2CE13071277500A7C3C6 /* Exceptions for "learnflow-ios" folder in "learnflow-ios" target */,
+			);
 			path = "learnflow-ios";
 			sourceTree = "<group>";
 		};

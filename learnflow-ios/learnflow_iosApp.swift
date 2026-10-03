@@ -11,7 +11,8 @@ import SwiftUI
 struct learnflow_iosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppCoordinatorView()
         }
     }
 }
+
