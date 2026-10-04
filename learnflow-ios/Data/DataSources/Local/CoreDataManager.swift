@@ -83,7 +83,7 @@ final class CoreDataManager {
         
         model.entities = [courseEntity, lessonEntity]
         
-        container = NSPersistentContainer(name: "LearnFlowModel", managedObjectModel: model)
+        let container = NSPersistentContainer(name: "LearnFlowModel", managedObjectModel: model)
         
         if inMemory {
             let description = NSPersistentStoreDescription()
